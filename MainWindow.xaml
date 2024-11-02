@@ -1,0 +1,9 @@
+﻿<Window x:Class="WebToAppConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Web to App Converter" Height="200" Width="400">
+    <StackPanel Margin="10">
+        <TextBox Name="UrlTextBox" Width="360" Height="30" />
+        <Button Content="Open as App" Width="360" Height="30" Click="OpenAsApp_Click"/>
+    </StackPanel>
+</Window>
